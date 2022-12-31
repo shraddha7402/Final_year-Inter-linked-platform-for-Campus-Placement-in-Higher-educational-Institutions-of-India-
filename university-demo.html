@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+  <title> Campus Placement Online | Virtual Campus Hiring Software by PlaceBharat </title>
+  <meta name="title"
+    content="Campus Placement Online | Virtual Campus Hiring Software | Campus Hiring Software | Virtual Campus Hiring">
+  <meta name="description"
+    content="PlaceBharat’s virtual campus placement and campus hiring software enables colleges to automate campus placements, helps employers hire young talent">
+  <meta name="keywords"
+      content="campus hiring, campus placement, online campus placement, virtual campus hiring software ,virtual campus hiring, campus hiring software, virtual hiring software">
+  <link rel="canonical" href="https://joinPlaceBharat.com/">
+  <meta charset="utf-8">
+<meta name="author" content="Weblength Infonet Pvt Ltd">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://joinPlaceBharat.com/">
+<meta property="og:title" content="PlaceBharat - The Official University Recruitment Platform">
+<meta property="og:description" content="PlaceBharat is a platform that enables colleges to automate  campus placements end-to-end, helps employers hire young talent from across colleges in the country, and empowers students to access opportunities democratically.">
+<meta property="og:image"  content="https://joinPlaceBharat.com/img/PlaceBharat-card-bg.jpg">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://joinPlaceBharat.com/">
+<meta property="twitter:title" content="PlaceBharat - The Official University Recruitment Platform">
+<meta property="twitter:description" content="PlaceBharat is a platform that enables colleges to automate  campus placements end-to-end, helps employers hire young talent from across colleges in the country, and empowers students to access opportunities democratically.">
+<meta property="twitter:image" content="https://joinPlaceBharat.com/img/PlaceBharat-card-bg.jpg">
+
+
+
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<meta name="p:domain_verify" content="e9e3572b80559c4037bba31b00c04bdd" />
+
+
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MV2K67J');</script>
+
+<link rel="stylesheet" href="PlaceBharat.css" >
+<link rel="preload" as="style" onload="this.rel='stylesheet'" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="preload" as="style" onload="this.rel='stylesheet'" href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,900&display=swap" >
+<link rel="preload" as="style" onload="this.rel='stylesheet'" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" >
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="assets/js/libs/modernizr.js"></script>
+
+</head>
+
+<body>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MV2K67J"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-81327217-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-81327217-6');
+
+
+
+
+
+  function _trackClick(label,outbound){
+    console.log('tracking :',label);
+    var fields = {
+      eventCategory: 'ButtonClick',
+      eventAction: 'click',
+      eventLabel: label
+    };
+    if(outbound) fields.transport = 'beacon';
+    ga('send', 'event', fields);
+  }
+
+
+  function _trackFormView(label,outbound){
+    console.log('tracking :',label);
+    var fields = {
+      eventCategory: 'FormView',
+      eventAction: 'view',
+      eventLabel: label
+    };
+    if(outbound) fields.transport = 'beacon';
+    ga('send', 'event', fields);
+  }
+
+
+  function _trackFormSubmit(label,outbound){
+    console.log('tracking :',label);
+    var fields = {
+      eventCategory: 'FormSubmission',
+      eventAction: 'submit',
+      eventLabel: label
+    };
+    if(outbound) fields.transport = 'beacon';
+    ga('send', 'event', fields);
+  }
+
+  //For tracking specific users
+  var userIdentifier = getParameterByName('utm_tracker');
+  if(userIdentifier){
+    console.log("sdgdf");
+    ga('set', 'userId', userIdentifier);
+  }
+
+  function getParameterByName(name, url) {
+    if (!url) {
+      url = window.location.href;
+    }
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+      results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+  }
+
+</script>
+
+  <div class="site-wrapper">
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">
+          You are using an <strong>outdatd</strong> browser. Please
+          <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+          your experience.
+        </p>
+      <![endif]-->
+    <div class=""></div>
+
+    <main class="">
+      <div class="wrapper container" style="margin-bottom: -20px">
+        <nav class="navbar navbar-default top-nav ss-navbar">
+  <div class="wrapper" style="position:relative">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand logo" style="padding:15px 0; margin-left:-5px; " href="./">
+        <img style="height: 50px" src="img/PlaceBharatlogovector.svg" alt="">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav dark">
+        <li><a href="university.html">UNIVERSITIES <span class="sr-only">(current)</span></a></li>
+        <li><a href="employer.html">EMPLOYERS</a></li>
+        <!--<li><a href="student.html">Students</a></li>-->
+        <!-- <li><a href="select.html">SELECT</a></li> -->
+
+      </ul>
+      <ul class="nav navbar-nav navbar-right dark">
+        <li><a href="university-demo.html">Contact Sales</a></li>
+        <!--        <li><a href="https://blog.joinPlaceBharat.com">Blog</a></li>-->
+        <li><a href="security.html">Security</a></li>
+        <li><a href="Login.html" style=""><strong>Login</strong></a></li>
+
+        <li><a href="Sign.html" style="padding-right:0"><strong>Sign up</strong></a></li>
+
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+ 
+      <hr />
+<div style="padding:20px; border-left: 1px dashed #e0e0e0;padding-left: 20px;background-color: rgba(244, 247, 252, 0.48);padding: 50px;border: 1px solid #ddecec;
+    margin-left: 10px;">
+
+    <!-- <div class="alert alert-warning"><span class="fa fa-info-circle"></span> COVID-19: To support institutions with rising need to go digital with placements at short notice, Superset licenses will be offered at reduced prices until 30<sup>th</sup> Sep 2020.</div> -->
+
+  <h1>Fill-up the form below to get free online demo.</h1>
+  <p style="font-size:20px;">
+    <a href="tel:+919545373275" style="text-decoration:none;">Or call us at +91 9545373275</a>.
+  </p>
+  <br>
+
+  <div id="entryForm">
+    <form id="demoForm">
+
+      <div class="form-group">
+        <input type="hidden" class="form-control input-sm edge-round" id="utm_source" name="utm_source" placeholder="Source" autofocus="">
+      </div>
+
+      <div class="form-group">
+        <input type="hidden" class="form-control input-sm edge-round" id="utm_campaign" name="utm_campaign" placeholder="Campaign" autofocus="">
+      </div>
+
+      <div class="form-group">
+        <input type="hidden" class="form-control input-sm edge-round" id="utm_keyword" name="utm_keyword" placeholder="Keyword">
+      </div>
+
+      <div class="form-group">
+        <input type="hidden" class="form-control input-sm edge-round" id="utm_ad" name="utm_ad" placeholder="Ad">
+      </div>
+
+
+      <div class="form-group">
+        <input type="text" class="form-control input-sm edge-round" id="institute_name" name="institute_name" placeholder="Institute name *" required="" autofocus="">
+      </div>
+
+      <div class="form-group">
+        <input type="text" class="form-control input-sm edge-round" id="contact_person" name="contact_person" placeholder="Your name and designation *" required="">
+      </div>
+
+      <!--
+                      <div class="form-group">
+                          <label for="designation">Designation<sup class="text-danger small"
+                                                                   style="font-size:8px; opacity:0.7;"> *</sup></label>
+                          <input type="text" class="form-control input-sm" id="designation" name="designation"
+                                 placeholder="Your Designation" required="">
+                      </div>
+               -->
+      <div class="form-group">
+        <input type="email" class="form-control input-sm edge-round" id="email" name="email" placeholder="Email address *" required="">
+      </div>
+      <div class="form-group">
+        <input type="number" class="form-control input-sm edge-round" id="contact_number" name="contact_number" placeholder="Mobile number *" required="">
+      </div>
+      <!-- <div class="form-group">
+          <label for="reason">Help us understand you better</label>
+          <select type="text" class="form-control input-sm" id="reason"
+                 name="reason" placeholder="Reason">
+                  <option value="none_blank">--- Select a case that describes you best ---</option>
+                  <option value="no_software_currently">Do not have a placement automation system, looking for one</option>
+                 <option value="not_satisfied_with_current_solution">Have a placement software/ERP, but not satisfied</option>
+                 <option value="casually_exploring">I do not want a placement automation system</option>
+
+             </select>
+      </div> -->
+      <div class="form-group">
+        <input type="number" class="form-control input-sm edge-round" id="batch_size" name="batch_size" placeholder="Batch size *" min="0">
+      </div>
+
+      <div class="form-group">
+        <input type="hidden" class="form-control input-sm edge-round" id="form_type" name="form_type" value="Company" placeholder="Batch size">
+      </div>
+
+      <div id="form_incomplete_error_message" style="display: none" class="alert alert-danger">
+        Please fill all mandatory fields
+      </div>
+
+      <!--
+                      <div class="row">
+                          <div class="col-xs-6">
+                              <div class="form-group">
+                                  <label for="contact_number">Mobile<sup class="text-danger small"
+                                                                         style="font-size:8px; opacity:0.7;"> *</sup></label>
+                                  <input type="text" class="form-control input-sm" id="contact_number"
+                                         name="contact_number" placeholder="Contact Number" required="">
+                              </div>
+                          </div>
+                          <div class="col-xs-6">
+                              <label for="batch_size">Batch Size</label>
+
+                              <input type="text" class="form-control input-sm" id="batch_size"
+                                     name="batch_size" placeholder="1000" required="">
+                          </div>
+                      </div>
+                      -->
+      <script>
+        function titleCase(str) {
+          var splitStr = str.toLowerCase().split(' ');
+          for (var i = 0; i < splitStr.length; i++) {
+            // You do not need to check if i is larger than splitStr length, as your for does that for you
+            // Assign it back to the array
+            splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);
+          }
+          // Directly return the joined string
+          return splitStr.join(' ');
+        }
+
+        function setTrackedCollegeName(time) {
+          setTimeout(function () {
+            var tracker = getParameterByName('utm_tracker');
+            if (tracker) {
+              var elem = document.getElementById('institute_name');
+              elem.value = titleCase(tracker);
+              elem.classList.add('borderless');
+
+              elem = document.getElementById('contact_person');
+              elem.focus();
+
+            }
+          }, time);
+        }
+
+        function getParameterByName(name, url) {
+          if (!url) {
+            url = window.location.href;
+          }
+
+          name = name.replace(/[\[\]]/g, "\\$&");
+          var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+          if (!results) return null;
+          if (!results[2]) return '';
+          return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+
+        function setCookies (key, value) {
+          document.cookie = `${key}=${value}`;
+        };
+
+        function setTrackedUTM(time) {
+          setTimeout(function () {
+            var source_tracker = getParameterByName('utm_source');
+            var campaign_tracker = getParameterByName('utm_campaign');
+            var keyword_tracker = getParameterByName('utm_keyword');
+            var ad_tracker = getParameterByName('utm_ad');
+
+            console.log(source_tracker);
+            console.log(campaign_tracker);
+            console.log(keyword_tracker);
+            console.log(ad_tracker);
+
+            if(source_tracker){
+              setCookies('utm_source', source_tracker);
+              var elem = document.getElementById('utm_source');
+              elem.value = titleCase(source_tracker);
+            }
+
+            if(campaign_tracker){
+              setCookies('utm_campaign', campaign_tracker);
+              var elem = document.getElementById('utm_campaign');
+              elem.value = titleCase(campaign_tracker);
+            }
+            if(keyword_tracker){
+              setCookies('utm_keyword', keyword_tracker);
+              var elem = document.getElementById('utm_keyword');
+              elem.value = titleCase(keyword_tracker);
+            }
+            if(ad_tracker){
+              setCookies('utm_ad', ad_tracker);
+              var elem = document.getElementById('utm_ad');
+              elem.value = titleCase(ad_tracker);
+            }
+
+
+          }, time);
+        }
+
+        setTrackedCollegeName(400);
+        setTrackedCollegeName(1000);
+        setTrackedCollegeName(5000);
+
+        setTrackedUTM(400);
+        setTrackedUTM(1000);
+        setTrackedUTM(5000);
+
+
+      </script>
+
+      <!--
+      <div class="form-group">
+          <label for="batch_size">Batch Size</label>
+          <small style="display: block; font-size:10px; margin-top:-10px;" class="text-muted">Number of
+              students participating in placements
+          </small>
+          <input type="text" class="form-control input-sm" id="batch_size"
+                 name="batch_size" placeholder="1000" required="">
+      </div>
+      -->
+      <!--
+                      <div class="g-recaptcha" data-callback="captchaFilledCallback"
+                           data-expired-callback="captchaExpired"
+                           data-sitekey="6LcPawsUAAAAAHaeYen6qMYlUxqF0cEUOT6qrB-U"></div>
+                           -->
+
+      <!-- <div id="captchaError" style="display:none;">
+          <span class="small text-danger">You need to click above - just to show you are a human.</span>
+      </div>
+      <hr/> -->
+
+      <div class="text-right">
+
+
+        <button type="submit" id="demo-form-submit-button" class="btn btn-default transparent btn-lg" style="border-radius: 25px; background-color: #2e2a7f; color: white;">
+          <strong>Request Demo</strong></button>
+        <br>
+
+        <!-- <p style="font-size:9px;" class="text-muted">By clicking on 'Submit', you agree to the <a
+                data-toggle="modal" data-target="#privacyPolicyModal"
+                onclick="_trackClick('signupModalPrivacyPolicyLink')">Privacy Policy</a>.</p> -->
+      </div>
+
+
+    </form>
+  </div>
+  <div id="successMessage" style="display: none;">
+    <div class="text-left">
+      <h4 style="font-weight: 100; line-height:1.5em;">
+        Thank you for your interest.
+        <br> <br>
+        We will arrange a 60-min online/in-person demo session of live product with you. Our team will call you shortly to schedule
+        this.
+
+        <br><br>
+        In the meantime, watch the <span class="wistia_embed wistia_async_wya6efa8lw popover=true popoverContent=link wistia_embed_initialized" style="display:inline;position:relative" id="wistia-wya6efa8lw-1"><div id="wistia_55.thumb_container" class="wistia_click_to_play" style="position: relative; display: inline;"><a id="demo-section-watch-video" class="clickable" onclick="_trackClick('demoPageVideoLink');">100-sec product tour
+        video</a></div></span> of Superset, if you haven't already!
+      </h4>
+      <!-- <Br>
+      <p class="text-left" style="font-size:15px;">
+          Trial Account details :
+          <br>
+          Link : <a href="https://beta.tnpsuite.in/" target="_blank" onclick="_trackClick('betaLinkClickDemoPage',true)">beta.tnpsuite.in</a>
+          <br>
+          Email : <span class="text-muted">admin@tnpsuite.com</span>
+          <br>
+          Password : <span class="text-muted">admin2017</span>
+      </p> -->
+      <br>
+
+
+    </div>
+
+  </div>
+
+</div>

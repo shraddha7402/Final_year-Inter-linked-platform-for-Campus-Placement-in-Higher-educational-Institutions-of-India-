@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+  <title> Campus Placement Online | Virtual Campus Hiring Software by PlaceBharat </title>
+  <meta name="title"
+    content="Campus Placement Online | Virtual Campus Hiring Software | Campus Hiring Software | Virtual Campus Hiring">
+  <meta name="description"
+    content="PlaceBharat’s virtual campus placement and campus hiring software enables colleges to automate campus placements, helps employers hire young talent">
+  <meta name="keywords"
+      content="campus hiring, campus placement, online campus placement, virtual campus hiring software ,virtual campus hiring, campus hiring software, virtual hiring software">
+  <link rel="canonical" href="https://joinPlaceBharat.com/">
+  <meta charset="utf-8">
+<meta name="author" content="Weblength Infonet Pvt Ltd">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://joinPlaceBharat.com/">
+<meta property="og:title" content="PlaceBharat - The Official University Recruitment Platform">
+<meta property="og:description" content="PlaceBharat is a platform that enables colleges to automate  campus placements end-to-end, helps employers hire young talent from across colleges in the country, and empowers students to access opportunities democratically.">
+<meta property="og:image"  content="https://joinPlaceBharat.com/img/PlaceBharat-card-bg.jpg">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://joinPlaceBharat.com/">
+<meta property="twitter:title" content="PlaceBharat - The Official University Recruitment Platform">
+<meta property="twitter:description" content="PlaceBharat is a platform that enables colleges to automate  campus placements end-to-end, helps employers hire young talent from across colleges in the country, and empowers students to access opportunities democratically.">
+<meta property="twitter:image" content="https://joinPlaceBharat.com/img/PlaceBharat-card-bg.jpg">
+
+
+
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<meta name="p:domain_verify" content="e9e3572b80559c4037bba31b00c04bdd" />
+
+
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MV2K67J');</script>
+
+<link rel="stylesheet" href="PlaceBharat.css" >
+<link rel="preload" as="style" onload="this.rel='stylesheet'" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+<link rel="preload" as="style" onload="this.rel='stylesheet'" href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,900&display=swap" >
+<link rel="preload" as="style" onload="this.rel='stylesheet'" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" >
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+<script src="assets/js/libs/modernizr.js"></script>
+
+</head>
+
+<body>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MV2K67J"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-81327217-6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-81327217-6');
+
+
+
+
+
+  function _trackClick(label,outbound){
+    console.log('tracking :',label);
+    var fields = {
+      eventCategory: 'ButtonClick',
+      eventAction: 'click',
+      eventLabel: label
+    };
+    if(outbound) fields.transport = 'beacon';
+    ga('send', 'event', fields);
+  }
+
+
+  function _trackFormView(label,outbound){
+    console.log('tracking :',label);
+    var fields = {
+      eventCategory: 'FormView',
+      eventAction: 'view',
+      eventLabel: label
+    };
+    if(outbound) fields.transport = 'beacon';
+    ga('send', 'event', fields);
+  }
+
+
+  function _trackFormSubmit(label,outbound){
+    console.log('tracking :',label);
+    var fields = {
+      eventCategory: 'FormSubmission',
+      eventAction: 'submit',
+      eventLabel: label
+    };
+    if(outbound) fields.transport = 'beacon';
+    ga('send', 'event', fields);
+  }
+
+  //For tracking specific users
+  var userIdentifier = getParameterByName('utm_tracker');
+  if(userIdentifier){
+    console.log("sdgdf");
+    ga('set', 'userId', userIdentifier);
+  }
+
+  function getParameterByName(name, url) {
+    if (!url) {
+      url = window.location.href;
+    }
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+      results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+  }
+
+</script>
+
+  <div class="site-wrapper">
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">
+          You are using an <strong>outdatd</strong> browser. Please
+          <a href="http://browsehappy.com/">upgrade your browser</a> to improve
+          your experience.
+        </p>
+      <![endif]-->
+    <div class=""></div>
+
+    <main class="">
+      <div class="wrapper container" style="margin-bottom: -20px">
+        <nav class="navbar navbar-default top-nav ss-navbar">
+  <div class="wrapper" style="position:relative">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand logo" style="padding:15px 0; margin-left:-5px; " href="./">
+        <img style="height: 50px" src="img/PlaceBharatlogovector.svg" alt="">
+      </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav dark">
+        <li><a href="university.html">UNIVERSITIES <span class="sr-only">(current)</span></a></li>
+        <li><a href="employer.html">EMPLOYERS</a></li>
+        <!--<li><a href="student.html">Students</a></li>-->
+        <!-- <li><a href="select.html">SELECT</a></li> -->
+
+      </ul>
+      <ul class="nav navbar-nav navbar-right dark">
+        <li><a href="university-demo.html">Contact Sales</a></li>
+        <!--        <li><a href="https://blog.joinPlaceBharat.com">Blog</a></li>-->
+        <li><a href="security.html">Security</a></li>
+        <li><a href="Login.html" style="padding-right:0"><strong>Login</strong></a></li>
+
+        <li><a href="Sign.html" style="padding-right:0"><strong>Sign up</strong></a></li>
+
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+ <div class="landing-hero hero section">
+  <div class="row">
+    <div class="col-xs-12 col-md-7 col-sm-7">
+      <h1 class="hero-title roboto animate__animated animate__fadeIn animate__delay-1s">
+        Where Talent <br />Meets Opportunity
+      </h1>
+      <p class="hero-info text-grey" style="font-weight: lighter">
+        PlaceBharat helps fresh graduates get their first jobs, <br />enables
+        employers to recruit faster,<br />
+        and helps colleges streamline campus placements
+      </p>
+      <br />
+      <a href="#get-started" class="btn btn-warning btn-lg btn-rounded btn-extended">
+        <span class="text-theme">Get Started</span>
+      </a>
+
+      <hr class="mt-40" />
+      <div class="row animate__animated animate__fadeIn animate__delay-2s">
+        <div class="col-sm-4 mb-30">
+          <h4>27,00,000+</h4>
+          <span class="text-grey">Students and Young Alumni</span>
+        </div>
+
+        <div class="col-sm-4 mb-30">
+          <h4>500+</h4>
+          <span class="text-grey">College Placement Cells</span>
+        </div>
+        <div class="col-sm-4 mb-30">
+          <h4>12,800+</h4>
+          <span class="text-grey">Employers</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-5 col-sm-5 hidden-xs" style="position: relative; z-index: -1">
+      <div class="hero-illustration" style="position: relative">
+        <img loading="lazy" src="website-hero-bg.svg" class="img-responsive animate__animated animate__fadeIn"
+          style="position: absolute; z-index: -2" />
+        <div class="flexbox" style="width: 110%">
+          <div class="px-10 pl-20">
+            <img  loading="lazy" src="Sakshi.jfif" class="img-responsive animate__animated animate__slideInDown" /><br>
+            <img loading="lazy" src="Nikita.jfif" class="img-responsive animate__animated animate__slideInUp" />
+          </div>
+          <div class="pt-150" >
+            <img loading="lazy" src="Shraddha.jpg" class="img-responsive animate__animated animate__slideInRight" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <hr />
+
+      <div class="wrapper container">
+        <div class="media-strip">
+  <h3 class="text-center visible-xs" >In the news</h3>
+  <div class="row text-center">
+    <div class="col-sm-2 col-xs-4 media-links">
+      <a href="https://techcircle.vccircle.com/2018/12/11/PlaceBharat-wants-to-debug-campus-recruitments-with-its-saas-solution"  target="_blank" class="f16">
+        <img src="img/vc-circle-logo-min.png" class="img-responsive" alt="">
+      </a>
+    </div>
+    <div class="col-sm-2 col-xs-4 media-links">
+      <a href="https://www.business-standard.com/article/news-ani/tnpsuite-evolves-to-form-PlaceBharat-118110201400_1.html"  target="_blank" class="f16">
+      <img src="img/business-standard-logo-min.png" class="img-responsive" alt="">
+      </a>
+    </div>
+    <div class="col-sm-2 col-xs-4 media-links">
+      <a href="https://www.educationtimes.com/article/27/20190128201901261921132197356415b"  target="_blank" class="f16">
+      <img src="img/times-of-india-logo-min.png" class="img-responsive" alt="">
+      </a>
+    </div>
+    <div class="col-sm-2 col-xs-4 media-links">
+      <a href="http://www.newindianexpress.com/cities/bengaluru/2019/jan/31/startup-bridges-placement-gap-between-recruiters-college-students-1932168.html"  target="_blank" class="f16">
+      <img src="img/the-new-indian-express-logo-min.png" class="img-responsive" alt="">
+      </a>
+    </div>
+    <div class="col-sm-2 col-xs-4 media-links">
+      <a href="https://www.thenewsminute.com/article/b-luru-startup-has-evolved-novel-approach-campus-placement-using-cloud-tech-95835"  target="_blank" class="f16">
+      <img src="img/the-news-minute-logo-min.png" class="img-responsive" alt="">
+      </a>
+    </div>
+    <div class="col-sm-2 col-xs-4 media-links">
+      <a href="https://www.edexlive.com/happening/2019/feb/05/PlaceBharat-will-help-you-get-through-placement-season-super-easily-heres-how-5241.html"  target="_blank" class="f16">
+        <img src="img/edex-live-logo-min.png" class="img-responsive" alt="">
+      </a>
+    </div>
+  </div>
+</div> <!-- media-strip -->
+
+      </div>
+
+      <div class="theme-yellow"><footer class="ss-footer" style="background: #343741; border-top:#242731">
+  <div class="wrapper">
+    <br class="visible-xs">
+
+
+    <div class="footer-content container">
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-4 col-md-3">
+          <div style="opacity:0.85; width: 200px;">
+            <img src="img/PlaceBharat-logo-white-vector.svg" alt="">
+          </div>
+          <br>
+          <p class="footer-description">
+            PlaceBharat enables colleges to automate end-to-end campus placements, helps employers hire young talent from
+            across colleges in the country, and empowers students to access opportunities democratically.
+          </p>
+
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-6">
+          <div class="row">
+
+            <div class="col-xs-6 col-sm-4">
+              <h4>
+                <a href="./university.html">UNIVERSITIES</a>
+              </h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="university-video.html">Video Tour</a>
+                </li>
+
+                <li>
+                  <a href="university-demo.html">Sign Up</a>
+                </li>
+
+                <li>
+                  <a href="https://help.tnpsuite.com">Help Center</a>
+                </li>
+                <li>
+                  <a href="university.html#university-testimonials">Testimonials</a>
+                </li>
+                <li>
+                  <a href="./security.html">Security</a>
+                </li>
+                <!-- <li>
+                  <a href="./commercial-policy.html">Commercial Policy</a>
+                </li> -->
+                <li>
+                  <a href="./gdpr.html">GDPR</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-4">
+              <h4>
+                <a href="./employer.html">EMPLOYERS
+                </a>
+              </h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="./employer.html">Start Hiring</a>
+                </li>
+
+                <li>
+                  <a href="./security.html">Security</a>
+                </li>
+
+                <li>
+                  <a href="./interview-weeks.html">Interview Weeks</a>
+                </li>
+
+              </ul>
+
+            </div>
+            <div class="col-xs-6 col-sm-4 col-md-4">
+              <h4>
+                <a href="./student.html">STUDENTS</a>
+              </h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a href="https://medium.com/PlaceBharat-blog" target="_blank">Resources</a>
+                </li>
+
+                <li>
+                  <a href="https://app.joinPlaceBharat.com/support/#/student/help" target="_blank">Support</a>
+                </li>
+                <li>
+                  <a href="https://play.google.com/store/apps/details?id=com.joinPlaceBharat.=en_IN" target="_blank">Android App</a>
+                </li>
+                <li>
+                  <a href="https://apps.apple.com/in/app/PlaceBharat-career-jobs/id" target="_blank">iOS App</a>
+                </li>
+              </ul>
+            </div>
+
+
+          </div>
+          <br class="hidden-xs"><br >
+
+          <div class="row">
+
+            <div class="col-xs-4 col-sm-4">
+              <h4>
+                <a href="./press.html">PRESS</a>
+              </h4>
+
+            </div>
+            <div class="col-xs-4 col-sm-4">
+              <h4>
+                <a href="https://angel.co/greekturtle/jobs">CAREERS
+                </a>
+              </h4>
+            </div>
+            <div class="col-xs-4 col-sm-4">
+              <h4>
+                <a href="https://medium.com/PlaceBharat-blog">BLOG
+                </a>
+              </h4>
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+        <div class="col-xs-11 col-sm-3 col-md-3">
+          <!-- <div style="padding:0 15px 15px;">
+            <a href="https://angel.co/greekturtle/jobs" target="_blank" class="btn btn-default btn-block">
+              <span class="text-theme" style="color:#777 !important;">JOIN OUR TEAM</span>
+            </a>
+
+          </div> -->
+              <h4>
+                <a href="https://joinPlaceBharat.com/university-demo.html">CONTACT SALES</a>
+              </h4>
+              <ul class="list-unstyled">
+                <li style="color: #9d9d9d;">
+                  [Only for Placement Offices & Companies]
+                </li>
+                <li>
+                  Call +91 70225 88707
+                </li>
+                <li>
+                  Email zeba@joinPlaceBharat.in
+                </li>
+                <li  style="color: #9d9d9d;">
+                 (Students do not call this number. <a style="color: #9d9d9d;" href="https://app.joinPlaceBharat.com/support/#/student/help">Click here.</a>)
+                </li>
+              </ul>
+          <br><br>
+          <p>PlaceBharat, 27th Main, HSR Layout, Bangalore</p>
+
+
+        </div>
+
+
+      </div>
+      <br class="hidden-xs"><br class="hidden-xs"><br>
+      <div class="row">
+        <div class="col-sm-9">Copyright 2018-19 |&nbsp; All rights reserved &nbsp;|&nbsp; <a href="./privacy.html">Privacy
+          Policy</a> &nbsp;|&nbsp; <a href="terms-of-service.html">Terms of Service</a>  |&nbsp; <a href="refund.html">Refund Policy</a></div>
+
+        <div class="col-sm-3 text-right">
+          <ul class="list-unstyled social-links">
+            <li>
+              <a href="https://www.facebook.com/joinPlaceBharat" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/company/joinPlaceBharat" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/joinPlaceBharat" target="_blank"><i class="fab fa-twitter"></i></a>
+            </li>
+
+          </ul>
+
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+</footer>
+
+</body>
+
+</html>
